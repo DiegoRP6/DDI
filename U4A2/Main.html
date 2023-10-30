@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rubrica2</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Custom.css"> <!-- Incluye tu archivo CSS personalizado -->
+</head>
+
+<body class="gray2">
+<div class="container gray2">
+    <nav class="navbar navbar-expand-lg navbar-light gray">
+        <a class="navbar-brand px-3" href="Main.html">
+            <img src="Spotify.png" alt="Logo" width="175" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item px-3">
+                    <a class="nav-link titulo" href="Tracklist.html" >Tracklist</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link titulo" href="Acerca.html">Acerca de Bad Bunny</a>
+                </li>
+            </ul>
+            <form class="d-flex px-3">
+                <label for="busqueda">Buscar:</label>
+<input class="form-control me-2" type="search" placeholder="Introduzca su búsqueda" id="busqueda">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center">
+        <div class="card col-8 text-center" style="background-color: rgb(107, 235, 21); ">
+            <div class="card-header ">
+                <div style="font-size: 50px; font-family: 'Times New Roman', Times, serif; font-weight: bold;">¡Nuevo album de Bad Bunny!</div>
+            </div>
+            <div class="card-body ">
+                <img src="Album.jpg" id="album" alt="album">
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-success w-100" type="submit">REPRODUCIR</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
