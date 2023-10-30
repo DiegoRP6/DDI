@@ -43,7 +43,7 @@
     body{
         background-color: gray;
     }
-    #album{
+    .album{
         max-width: 100%;
         height: 400px;
         text-align: center;
@@ -84,5 +84,5 @@
     color: greenyellow;
     }
 
-    #tab{
+    .tab{
     color: greenyellow;}
