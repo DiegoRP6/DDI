@@ -86,3 +86,7 @@
 
     .tab{
     color: greenyellow;}
+    .custom-toggler {
+        background-color: green;
+        border: none;
+    }
