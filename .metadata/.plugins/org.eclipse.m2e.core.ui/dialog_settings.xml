@@ -6,7 +6,12 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\diegi\Desktop\student-services"/>
+			<item value="C:\Users\diegi\Desktop\SpringExample"/>
+			<item value="C:\Users\diegi\Desktop\GS_DAM2\DDI\spring-boot-2-jdbc-with-h2"/>
 			<item value="C:\Users\diegi\Desktop\GS_DAM2\spring-boot-2-jdbc-with-h2"/>
+			<item value="C:\Users\diegi\Desktop\SpringbootApplication"/>
+			<item value="C:\Users\diegi\Desktop\GS_DAM2\DDI\demo_springboot"/>
 			<item value="C:\Users\diegi\Desktop\GS_DAM2"/>
 			<item value="C:\Users\diegi\Downloads"/>
 		</list>
